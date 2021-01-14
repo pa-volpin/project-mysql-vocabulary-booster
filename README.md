@@ -1,3 +1,51 @@
+# Bem vindo ao projeto ***Vocabulary Booster***
+
+O projeto Vocabulary Booster faz parte das atividades de avaliação da formação da Trybe, mais especificamente do modulo de back-end.
+
+O objetivo do projeto é avaliar e certificar os conhecimentos adquiridos sobre queries SQL através usando o MySQL.
+
+## Objetivo técnico
+
+Tecnicamente, objetivou-se a aplicação de comandos para fazer buscas mais refinadas de dados a partir de dois bancos de dados forncecidos. Dentre os comandos estão:
+
+- IF
+- CASE WHEN
+- AVG, MIIN, MAX, ROUND
+- CONCAT, UCASE
+- DATE_FORMAT, MONTH, YEAR
+- TIMESTAMPDIFF
+- GROUP BY
+- INNER JOIN
+- SUB-QUERIES
+- UNION
+- PROCEDURE
+- FUNCTION
+- TRIGGER
+
+## Bibliotecas utilizadas
+
+- Codeclimate
+- Jest
+
+## Ferramentas de desenvolvimento
+
+- Git e GitHub para versionamento
+- VSCode como editor
+
+## Conclusão
+
+O projeto foi concluído com 100% de cumprimento dos requisitos, tendo como principais aprendizados a construção de queries para selecionar dados específicos de uma ou mais tabelas.
+
+## Desenvolvedores
+
+- Paulo Afonso Volpin ([perfil](https://github.com/pa-volpin))
+
+## Repositório base do projeto (Trybe)
+
+https://github.com/tryber/sd-06-mysql-vocabulary-booster
+
+<details>
+  <summary>README OFICIAL DA TRYBE</summary></br>
 ### Termos e acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
@@ -645,3 +693,4 @@ Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/Z
 O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
 ---
+</details>

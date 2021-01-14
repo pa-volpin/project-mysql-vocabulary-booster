@@ -1,5 +1,6 @@
 USE hr;
 DROP PROCEDURE IF EXISTS buscar_media_por_cargo;
+
 DELIMITER $$
 CREATE PROCEDURE buscar_media_por_cargo(IN cargo VARCHAR(300))
 BEGIN
@@ -13,3 +14,5 @@ BEGIN
   WHERE t_jobs.JOB_TITLE = cargo;
 END $$
 DELIMITER ;
+
+-- CALL buscar_media_por_cargo('Programmer');

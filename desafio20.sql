@@ -17,4 +17,6 @@ BEGIN
   WHERE T_EMP.EMAIL = email
   ORDER BY CONCAT(T_EMP.FIRST_NAME, " ", T_EMP.LAST_NAME) DESC, T_JOBS.JOB_TITLE;
 END $$
-DELIMITER :
+DELIMITER ;
+
+-- CALL exibir_historico_completo_por_funcionario('NKOCHHAR');
